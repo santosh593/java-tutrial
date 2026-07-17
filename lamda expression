@@ -1,0 +1,44 @@
+package com.example;
+
+import javax.swing.*;
+import java.util.*;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+import java.util.zip.CheckedInputStream;
+
+public class Main {
+    public static void main(String[] args) {
+//         MyFunction myFunction = ()->{
+//             System.out.println("java is programming language");
+//         };
+//         myFunction.getData();
+
+//        Predicate<Integer> result = num->num%2==0;
+//        System.out.println(result.test(12));
+
+//        Consumer<String> result = num-> System.out.println(num);
+//        result.accept("java is programming language");
+
+//        Supplier<String> result = ()->String.valueOf(UUID.randomUUID());
+//        System.out.println(result.get());
+
+//        Function<String,Integer> result  = num->num.length();
+//        System.out.println(result.apply("java is programming language"));
+    }
+
+
+
+}
+
+
+interface MyFunction{
+    void getData();
+}
+
+
+
+
